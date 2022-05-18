@@ -1,0 +1,26 @@
+.menu a {
+  color: #eee;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu a:hover {
+  background: lightgray;
+  color: #222;
+  border-radius: 6px;
+}
+
+.menuul {
+  display: none;
+}
+
+.menu:hover .menuul {
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  background: #777;
+  border-radius: 6px;
+  width: 110px;
+  padding: 10px 2px;
+  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+}
